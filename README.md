@@ -2,8 +2,8 @@
 [![Built with](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/)
 
 The optimized config for Matrix Anticheat.
-I don't want to add any clutter to the README.md file. It's just a config.
-...and it has a github for people to contribute and report issues.
+
+And this GitHub repository is for tracking issues/feature requests + for other people to contribute.
 
 ## Warning!
-The config here is most likely in development or outdated - it's better to download it in Matrix's discord server (config-share channel.)
+The config here is most likely in development; it's better to download it in Matrix's discord server (config-share channel.)
