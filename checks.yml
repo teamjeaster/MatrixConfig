@@ -13,10 +13,11 @@
 # servers. Tweak the config for your own server
 # as all of them are different.
 #
-# -----------------------------------------------
-#                 Issues?
-#   Message me on the Matrix discord server!
-# -----------------------------------------------
+# ------------------------------------------------------
+#                       Issues?
+#                  Report them here: 
+# https://github.com/PhoenixDiscord/MatrixConfig/issues
+# ------------------------------------------------------
 
 ## KillAura
 # Prevents the player from using the KillAura/AimBot hack
