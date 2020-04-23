@@ -92,6 +92,8 @@ killaura:
       only_command_trigger: true
 
       # Should the player see this NPC? (true = visible)
+      # I would say the NPC's visibility is important as it blocks killaura hacks that mostly everyone uses.
+      # Most hacked/cheat clients don't attack invisible entities.
       visible: true
 
       # NPC existence time setting (ticks)
