@@ -482,7 +482,7 @@ scaffold:
         expand: 3
         limit: 1
         head: 5
-        simple: 2
+        simple: 3
         direction: 4
     # It can detect player towering up faster
     tower:
