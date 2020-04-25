@@ -5,7 +5,7 @@ The optimized config for Matrix Anticheat.
 
 And this GitHub repository is for tracking issues/feature requests + for other people to contribute. 
 
-The `checks-skywars.yml` file contains minor changes for my SkyWars server - you don't need it really.
+The `checks-skywars.yml` file contains minor patches for my SkyWars server - you don't need it.
 
 You can use this for anything, and modify it if you want to, but just please don't say that it's entirely yours and no one else contributed to it.
 

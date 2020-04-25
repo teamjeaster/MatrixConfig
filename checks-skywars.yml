@@ -13,10 +13,11 @@
 # servers. Tweak the config for your own server
 # as all of them are different.
 #
-# -----------------------------------------------
-#                 Issues?
-#   Message me on the Matrix discord server!
-# -----------------------------------------------
+# ------------------------------------------------------
+#                       Issues?
+#                  Report them here: 
+# https://github.com/PhoenixDiscord/MatrixConfig/issues
+# ------------------------------------------------------
 
 ## KillAura
 # Prevents the player from using the KillAura/AimBot hack
@@ -311,8 +312,7 @@ fly:
   # it's a nice option for skyblock server if you don't want your players
   # get teleport into the void
 
-  # Set to false to prevent legit players from being teleported to the void (assuming you run a minigame server).
-  # If you want this, just set 'false' to 'true'.
+  # causes legit players to fall to the void.
   setback_to_void: false
 
   # NoFall check

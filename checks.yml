@@ -312,9 +312,9 @@ fly:
   # it's a nice option for skyblock server if you don't want your players
   # get teleport into the void
 
-  # Set to false to prevent legit players from being teleported to the void (assuming you run a minigame server).
-  # If you want this, just set 'false' to 'true'.
-  setback_to_void: false
+  # Set this to false to prevent legit players from being teleported to the void due to false positives (assuming you run a minigame server).
+  # Pointless for survival servers.
+  setback_to_void: true
 
   # NoFall check
   nofall:
