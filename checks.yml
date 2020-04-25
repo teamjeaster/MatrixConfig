@@ -328,10 +328,7 @@ fly:
   # Setback method (back/ground)
   # back: teleport the player to the last legit location
   # ground: teleport the player to the ground under the player
-
-  # ground setback method prevents legit players from being annoyed by false posititives
-  # while still blocking the hacks.
-  setback: ground
+  setback: back # experimental
 
   # Violation Thresholds
   # number_of_violations: '<command>'
