@@ -15,3 +15,5 @@ In other words, I can't make your anticheat kick people seconds after they turn 
 
 ## Warning!
 The config here is most likely in development; it's better to download it in Matrix's discord server (config-share channel.)
+
+Also, don't assume that this config will be perfect for your server out of the box - each server is different, you should tweak the config for your own needs.

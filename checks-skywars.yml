@@ -78,7 +78,9 @@ killaura:
       enable: true
 
       # How much VL should the player get after being flagged by this module?
-      vl_weight: 8
+      # I assume the VL is added when the player hits the NPC.
+      # This can be bigger than the default because only dumb people would attack NPC's, right?
+      vl_weight: 12
 
       # Should the position calculation of the NPC run asynchronously, as this may consume some resources
       async: true
@@ -198,7 +200,7 @@ killaura:
     8: 'matrix npc %player% 100'
     20: 'matrix notify %player% might be using combat hacks (KillAura)'
     35: 'matrix notify %player% is using combat hacks (KillAura) #2'
-    45: 'matrix kick %player% KillAura'
+    42: 'matrix kick %player% KillAura'
 
 ## HitBox
 # Description: This check prevents players from using HitBox, Angle, Reach hacks.
@@ -312,7 +314,8 @@ fly:
   # it's a nice option for skyblock server if you don't want your players
   # get teleport into the void
 
-  # causes legit players to fall to the void.
+  # Set this to false to prevent legit players from being teleported to the void due to false positives (assuming you run a minigame server).
+  # Pointless for survival servers.
   setback_to_void: false
 
   # NoFall check
@@ -327,9 +330,6 @@ fly:
   # Setback method (back/ground)
   # back: teleport the player to the last legit location
   # ground: teleport the player to the ground under the player
-
-  # ground setback method prevents legit players from being annoyed by false posititives
-  # while still blocking the hacks.
   setback: back # experimental
 
   # Violation Thresholds
@@ -388,7 +388,7 @@ fastuse:
   # number_of_violations: '<command>'
   commands:
     5: 'matrix notify %player% tried to use an item faster than usual (FastUse)'
-#    48: 'matrix kick %player% FastUse Hacks' # [LCD] commented out to prevent false kicks. The check still blocks the hack, don't worry.
+    64: 'matrix kick %player% FastUse Hacks' # Decrease if needed, or increase if causes false positives.
 
 ## FastBow
 # Check prevents player from shooting a bow too quickly.
@@ -412,6 +412,7 @@ fastbow:
 # Check prevents player from regaining health too quickly.
 # May cause false positives, but RE says the check has been improved.
 # Disable this if it causes false positives.
+# Also blocked by BadPackets
 fastheal:
   # Enable this check?
   enable: true
@@ -423,7 +424,7 @@ fastheal:
   # number_of_violations: '<command>'
   commands:
     10: 'matrix notify %player% tried to regain health too quickly (FastHeal)'
-    72: 'matrix kick %player% FastHeal Hacks'
+    64: 'matrix kick %player% FastHeal Hacks'
 
 ## Block
 # Check prevents the player from breaking, placing block quickly
@@ -481,7 +482,7 @@ scaffold:
         expand: 3
         limit: 1
         head: 5
-        simple: 3
+        simple: 3 # Causes false positives
         direction: 4
     # It can detect player towering up faster
     tower:
@@ -510,7 +511,7 @@ jesus:
   commands:
     20: 'matrix notify %player% tried to move illegally in liquid (Jesus)'
     40: 'matrix notify %player% tried to move illegally in liquid (Jesus) #2'
-    72: 'matrix kick %player% Jesus/WaterSpeed/WaterFly Hacks'
+    64: 'matrix kick %player% Jesus/WaterSpeed/WaterFly Hacks'
 
 ## Inventory
 # Check prevents the player from using illegal inventory modifications such as Steal.
