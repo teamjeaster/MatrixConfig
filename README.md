@@ -1,5 +1,5 @@
 # MatrixConfig
-[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/) [![For matrix version](https://badgen.net/badge/for%20matrix/4.7.8/green)](https://example.com/)
+[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/) [![For matrix version](https://badgen.net/badge/for%20matrix/4.7.9/green)](https://example.com/)
 
 The optimized config for Matrix Anticheat.
 
