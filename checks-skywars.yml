@@ -635,13 +635,13 @@ autofish:
   enable: true
 
   # Violations needed to cancel auto fishing (-1 = never cancel)
-  cancel_vl: 6
+  cancel_vl: 5
 
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
     6: 'matrix notify %player% is using auto fish (AutoFish)'
-    16: 'matrix kick %player% AutoFish'
+    14: 'matrix kick %player% AutoFish'
 
 ## Phase
 # Check prevents the player people glitching through blocks.
