@@ -332,7 +332,7 @@ fly:
   # Setback method (back/ground)
   # back: teleport the player to the last legit location
   # ground: teleport the player to the ground under the player
-  setback: back # disable if causes issues
+  setback: back # change to 'ground' if causes issues
 
   # Violation Thresholds
   # number_of_violations: '<command>'
@@ -351,7 +351,7 @@ badpackets:
   # Buffer Size (ticks)
   # The larger the value, the slower the detection, but the more stable
   # Don't set it lower than 10
-  buffer_size: 48
+  buffer_size: 40
 
   # Freeze time (millisecond, 1second=1000 millisecond)
   # The time to freeze player if they try to send too
