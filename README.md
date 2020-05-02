@@ -1,11 +1,9 @@
 # MatrixConfig
-[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/) [![For matrix version](https://badgen.net/badge/for%20matrix/4.7.9/green)](https://example.com/)
+[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/) [![For matrix](https://badgen.net/badge/for%20matrix/4.7.10/green)](https://example.com/)
 
 The optimized config for Matrix Anticheat.
 
 And this GitHub repository is for tracking issues/feature requests + for other people to contribute. 
-
-The `checks-skywars.yml` file contains minor patches for my SkyWars server - you don't need it.
 
 You can use this for anything, and modify it if you want to, but just please don't say that it's entirely yours and no one else contributed to it.
 
