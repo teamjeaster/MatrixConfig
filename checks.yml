@@ -246,7 +246,7 @@ hitbox:
   dynamic_vl:
     enable: true
     expander: 10
-    min_vl: 3
+    min_vl: 5 # experimental, should work fine with the max reach?
     max_vl: 19
 
   # Violation Thresholds
@@ -254,7 +254,7 @@ hitbox:
   commands:
     10: 'matrix notify %player% tried to reach entity outside max reach distance (HitBox)'
     15: 'matrix notify %player% tried to reach entity outside max reach distance (HitBox) #2'
-    26: 'matrix kick %player% Reach/HitBox Hacks'
+    22: 'matrix kick %player% Reach/HitBox Hacks'
 
 ## Movement Speed Check
 # This checks how fast a player moves, and prevents the player from moving too fast.
@@ -316,8 +316,8 @@ fly:
   # it's a nice option for skyblock server if you don't want your players
   # get teleport into the void
 
-  # Set this to false to prevent legit players from being teleported to the void due to false positives (assuming you run a minigame server).
-  # Pointless for survival servers.
+  # Good for minigame servers (BedWars, SkyWars and others)
+  # Usually pointless for survival servers.
   setback_to_void: true
 
   # NoFall check
@@ -332,7 +332,7 @@ fly:
   # Setback method (back/ground)
   # back: teleport the player to the last legit location
   # ground: teleport the player to the ground under the player
-  setback: back # experimental
+  setback: back # disable if causes issues
 
   # Violation Thresholds
   # number_of_violations: '<command>'
@@ -390,7 +390,7 @@ fastuse:
   # number_of_violations: '<command>'
   commands:
     5: 'matrix notify %player% tried to use an item faster than usual (FastUse)'
-    64: 'matrix kick %player% FastUse Hacks' # Decrease if needed, or increase if causes false positives.
+    64: 'matrix kick %player% FastUse Hacks' # Decrease if it takes a long time to detect, or increase if causes false positives.
 
 ## FastBow
 # Check prevents player from shooting a bow too quickly.
@@ -484,7 +484,7 @@ scaffold:
         expand: 3
         limit: 1
         head: 5
-        simple: 3 # Causes false positives
+        simple: 3 # Causes false positives when speedbridging, set to -1 to disable
         direction: 4
     # It can detect player towering up faster
     tower:
@@ -501,6 +501,7 @@ scaffold:
 ## Jesus
 # Check prevents the player from moving too too quickly in liquids, or walking on liquid.
 # Causes false positives in 1.13+ when player is quickly swimming/sprinting in water in a 1x1 water thing (my english sucks!)
+# ^^ I wouldn't disable the check anyway - that false positive is rare in most cases.
 jesus:
   # Enable this check?
   enable: true
@@ -523,7 +524,7 @@ inventory:
   enable: true
 
   # Violations needed to cancel illegal movements of items (-1 = never cancel)
-  # A little bit strict for SkyWars matches
+  # Strict for SkyWars matches
   cancel_vl: 8
 
   # Enable ChestStealer check?
@@ -733,7 +734,7 @@ vehicle:
     setback_vl: 4
 
     # leave vehicle vl (-1 = never leave vehicle)
-    leave_vehicle: 10
+    leave_vehicle: 8
 
   # Violation Thresholds
   # number_of_violations: '<command>'
