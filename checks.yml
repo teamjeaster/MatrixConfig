@@ -97,13 +97,14 @@ killaura:
       # Should the player see this NPC? (true = visible)
       # I would say the NPC's visibility is important as it blocks killaura hacks that mostly everyone uses.
       # Most hacked/cheat clients don't attack invisible entities.
+      # TLDR; Don't disable unless you really need to!
       visible: true
 
       # NPC existence time setting (ticks)
       check_ticks:
         base: 100
-        attack_add: 20
-        hit_bot_add: 50
+        attack_add: 30
+        hit_bot_add: 55
 
       # NPC motion settings
       movement:
@@ -114,9 +115,10 @@ killaura:
 
     # KillAura / AimBot check based on machine learning clustering
     # Matrix provides a trained model by default. Of course, you can also train a model yourself.
-    # Head to our WIKI to learn how to train:
+    # Head to the wiki page to learn how to train:
     #  -> https://github.com/jiangdashao/Matrix-Issues/wiki/Machine-Learning-KillAura-check-Training-Tutorial
     # It is worth noting that this check is more useful for version 1.8. If you are a 1.9+ server, you can choose to disable this check
+    # note: the check still works in 1.9+ servers
     machine_learning:
       # Enable this check?
       enable: true
