@@ -666,6 +666,7 @@ phase:
 ## AutoBot
 # Check prevents player use some Bot mods like Baritone
 # NOTE: THIS CHECK IS ONLY WORK FOR PREMIUM USERS
+# Doesn't work for 1.8 (maybe?)
 autobot:
   # Enable this check?
   enable: true
