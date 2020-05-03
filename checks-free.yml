@@ -215,8 +215,8 @@ hitbox:
 
   # Maximum reach distance (default config: 3.1)
   # The standard/max Minecraft reach is 3.5 blocks, however it's still calculated in a mysterious way so most people won't even get near that.
-  # So, based on all of this info, anything bigger then 3.4 blocks is considered hacks.
-  max_reach: 3.4
+  # So, based on all of this info, anything bigger then 3.3 blocks is considered hacks.
+  max_reach: 3.3
 
   # How many moves should the Matrix trace back to the player? (default: 5)
   # You can set this higher to reduce false positives, but this will weaken HitBox detection
