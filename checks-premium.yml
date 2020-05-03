@@ -485,7 +485,6 @@ scaffold:
         expand: 3
         limit: 1
         head: 5
-        simple: 3 # Causes false positives when speedbridging, set to -1 to disable
         direction: 4
     # It can detect player towering up faster
     tower:
