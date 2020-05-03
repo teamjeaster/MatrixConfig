@@ -1,5 +1,5 @@
 # MatrixConfig
-[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)](https://example.com/) [![For matrix](https://badgen.net/badge/for%20free%20matrix/4.7.10/green)](https://example.com/)
+[![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green)] [![For matrix free](https://badgen.net/badge/for%20free%20matrix/4.7.10/green)] [![And premium](https://badgen.net/badge/for%20premium%20matrix/4.7.10/green)]
 
 **Warning: The free version of Matrix isn't updated anymore - the last free version was 4.7.10. You should use `checks-free.yml` for the free version.** Premium user? See `checks-premium.yml`.
 
