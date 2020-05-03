@@ -21,4 +21,4 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 
 2. `block.noswing.enabled: false` -> `block.noswing.enabled: true` (if you don't use ViaVersion)
 
-3. `hitbox.max-reach: 3.3` -> `hitbox.max_reach: 3.4` (if you have hitbox false positives)
+3. `hitbox.max-reach: 3.3` -> `hitbox.max_reach: 3.4` (if you have hitbox false positives **[makes hitbox detection more lenient!]**)
