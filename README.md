@@ -1,6 +1,6 @@
 # MatrixConfig
 
-> The optimized config for [Matrix Anticheat](https://discord.gg/F2YcH7R).
+> The optimized config for [Matrix Anticheat](https://matrix.rip/).
 
 ![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.7.10/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.7.10/green)
 
