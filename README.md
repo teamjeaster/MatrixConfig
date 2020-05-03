@@ -1,19 +1,17 @@
 # MatrixConfig
+
+> The optimized config for [Matrix Anticheat](https://discord.gg/F2YcH7R).
+
 ![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.7.10/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.7.10/green)
 
-**Warning: The free version of Matrix isn't updated anymore - the last free version was 4.7.10. You should use `checks-free.yml` for the free version. Also, no, using the premium checks file won't get you premium features.** Premium user? See `checks-premium.yml`.
+**Warning: The free version of Matrix isn't updated anymore - the last free version was 4.7.10. You should use `checks-free.yml` if you use it. Also, no, using the premium checks file won't get you premium features.** Premium user? See `checks-premium.yml`.
 
-The optimized config for Matrix Anticheat.
-
-And this GitHub repository is for tracking issues/feature requests + for other people to contribute. 
-
+### Terms
 You can use this for anything, and modify it if you want to, but just please don't say that it's entirely yours and no one else contributed to it.
 
-Also, remember that with Matrix, it's either get a big amount of false kicks or make the detection a little bit more lenient.
+### Important thing to remember
+Don't assume that this config will be perfect for your server out of the box - each server is different, you should tweak the config for your own needs.
 
-In other words, I can't make your anticheat kick people seconds after they turn on their hacks without causing false positives if I can't even access the code. This isn't as customizable as NoCheatPlus.
+Also, remember that in most cases with Matrix, it's either get a big amount of false kicks or make the detection a little bit more lenient.
 
-## Warning!
-The config here is most likely in development; it's better to download it in Matrix's discord server (config-share channel.)
-
-Also, don't assume that this config will be perfect for your server out of the box - each server is different, you should tweak the config for your own needs.
+I can't make your anticheat kick people seconds after they turn on their hacks without causing false positives if I can't even access the code. This ain't NoCheatPlus.
