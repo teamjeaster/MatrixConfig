@@ -2,7 +2,7 @@
 
 > The optimized config for [Matrix Anticheat](https://matrix.rip/).
 
-![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.7.10/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.7.10/green)
+![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.7.10/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.8.0/green)
 
 **Warning: The free version of Matrix isn't updated anymore - the last free version was 4.7.10. You should use `checks-free.yml` if you use it. Also, no, using the premium checks file won't get you premium features.** Premium user? See `checks-premium.yml`.
 
