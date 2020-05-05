@@ -22,3 +22,5 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 2. `block.noswing.enabled: false` -> `block.noswing.enabled: true` (if you don't use ViaVersion)
 
 3. `hitbox.max-reach: 3.2` -> `hitbox.max_reach: 3.3` (if you have hitbox false positives **[makes hitbox detection more lenient!]**)
+
+4. `killaura.modules.autoclicker.max_cps: 18` -> `killaura.modules.autoclicker.max_cps: (number from 8 to 24)` (decrease if your players don't click fast, or increase if they do **don't go above 24!**.)
