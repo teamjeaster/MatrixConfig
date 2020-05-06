@@ -14,7 +14,7 @@ Don't assume that this config will be perfect for your server out of the box - e
 
 Also, remember that in most cases with Matrix, it's either get a big amount of false kicks or make the detection a little bit more lenient.
 
-I can't make your anticheat kick people seconds after they turn on their hacks without causing false positives if I can't even access the code. This ain't NoCheatPlus.
+I can't make your anticheat kick people seconds after they turn on their hacks without causing false positives if I can't even access the code. This ain't NoCheatPlus. We are still trying to make checks that cause a very small amount of false positives more strict.
 
 ### Recommended changes
 1. `nofall.damage: true` -> `nofall.damage: false` (for minigame servers with fall damage disabled)
