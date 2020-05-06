@@ -27,6 +27,10 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 
 4. `killaura.modules.autoclicker.max_cps: 18` -> `killaura.modules.autoclicker.max_cps: (number from 8 to 24)` (decrease if your players don't click fast, or increase if they do. **don't go above 24!**)
 
+5. `inventory.cancel_vl: 8` -> `inventory.cancel_vl: (number from 8 to 14)` (increase if the check causes false positives)
+
+6. `fastuse.commands.64: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
+
 ### Contact
 There are a lot of ways to contact me, but here are the main ones:
 
