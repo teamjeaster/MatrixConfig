@@ -24,3 +24,10 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 3. `hitbox.max-reach: 3.2` -> `hitbox.max_reach: 3.3` (if you have hitbox false positives **[makes hitbox detection more lenient!]**)
 
 4. `killaura.modules.autoclicker.max_cps: 18` -> `killaura.modules.autoclicker.max_cps: (number from 8 to 24)` (decrease if your players don't click fast, or increase if they do. **don't go above 24!**)
+
+### Contact
+There are a lot of ways to contact me, but here are the main ones:
+
+1. [Matrix's official discord](https://discord.gg/Vq93vdj) - recommended
+
+2. [The config's official discord](https://discord.gg/2ReynYN) - for update notifications or larger debates (lol).
