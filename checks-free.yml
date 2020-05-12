@@ -268,9 +268,6 @@ speed:
   # flight detection.
   enable: true
 
-  # Should Matrix ignore the unloaded chunks when checking? (default config: true)
-  ignore_unloaded_chunks: true
-
   # Speed prediction tolerance
   tolerance: 0.01
 
@@ -459,7 +456,7 @@ block:
       max_place_per_second: 9
     # It can detect player placing block without swing hand
     noswing:
-      enable: true
+      enable: false
       vl_weight: 1
     # detect player not send abort breaking packet
     abort:
