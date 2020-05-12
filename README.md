@@ -2,7 +2,7 @@
 
 > The optimized config for [Matrix Anticheat](https://matrix.rip/).
 
-![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.8.0%20%28thanks%20RE!%29/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.8.0/green) ![open issues](https://img.shields.io/github/issues/PhoenixDiscord/MatrixConfig.svg) ![last commit](https://img.shields.io/github/last-commit/PhoenixDiscord/MatrixConfig.svg)
+![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.8.1/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.8.1/green) ![open issues](https://img.shields.io/github/issues/PhoenixDiscord/MatrixConfig.svg) ![last commit](https://img.shields.io/github/last-commit/PhoenixDiscord/MatrixConfig.svg)
 
 **Warning: The free version of Matrix isn't updated anymore - the last free version was 4.8.0. You should use `checks-free.yml` if you use it. Also, no, using the premium checks file won't get you premium features.** Premium user? See `checks-premium.yml`.
 
@@ -19,15 +19,13 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 ### Recommended changes
 1. `nofall.damage: true` -> `nofall.damage: false` (for minigame servers with fall damage disabled)
 
-2. `block.noswing.enabled: false` -> `block.noswing.enabled: true` (if you don't use ViaVersion)
+2. `hitbox.max-reach: 3.2` -> `hitbox.max_reach: 3.3` (if you have hitbox false positives **[makes hitbox detection more lenient!]**)
 
-3. `hitbox.max-reach: 3.2` -> `hitbox.max_reach: 3.3` (if you have hitbox false positives **[makes hitbox detection more lenient!]**)
+3. `killaura.modules.autoclicker.max_cps: 18` -> `killaura.modules.autoclicker.max_cps: (number from 8 to 24)` (decrease if your players don't click fast, or increase if they do. **don't go above 24!**)
 
-4. `killaura.modules.autoclicker.max_cps: 18` -> `killaura.modules.autoclicker.max_cps: (number from 8 to 24)` (decrease if your players don't click fast, or increase if they do. **don't go above 24!**)
+4. `inventory.cancel_vl: 8` -> `inventory.cancel_vl: (number from 8 to 14)` (increase if the check causes false positives)
 
-5. `inventory.cancel_vl: 8` -> `inventory.cancel_vl: (number from 8 to 14)` (increase if the check causes false positives)
-
-6. `fastuse.commands.64: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
+5. `fastuse.commands.64: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
 
 ### Contact
 There are a lot of ways to contact me, but here are the main ones:

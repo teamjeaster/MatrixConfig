@@ -1,5 +1,5 @@
 # LCD's optimized checks file - v1.4.3
-# For Matrix 4.7.10-4.8.0
+# For Matrix 4.8.1
 #
 # This project aims to keep a balance between
 # preventing false positives and having a
@@ -268,6 +268,9 @@ speed:
   # flight detection.
   enable: true
 
+  # Should Matrix ignore the unloaded chunks when checking? (default config: true)
+  ignore_unloaded_chunks: true
+
   # Speed prediction tolerance
   tolerance: 0.01
 
@@ -456,7 +459,7 @@ block:
       max_place_per_second: 9
     # It can detect player placing block without swing hand
     noswing:
-      enable: false # Causes false positives on 1.8+ViaVersion servers
+      enable: true
       vl_weight: 1
     # detect player not send abort breaking packet
     abort:
