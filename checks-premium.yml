@@ -231,7 +231,7 @@ hitbox:
   # My suggestion is 3 to 10, please don't make it more than 10, because it is useless
 
   # With the max reach this should be more stable, so the detection can be more strict.
-  trace_back_length: 3 # experimental
+  trace_back_length: 3
 
   # How much should Matrix ignore players with greater network latency?
   # When the player's network latency is greater than this value, some
