@@ -399,7 +399,7 @@ fastuse:
   # number_of_violations: '<command>'
   commands:
     5: 'matrix notify %player% tried to use an item faster than usual &8| &7FastUse &8| &a1/2'
-    48: 'matrix kick %player% FastUse Hacks' # Decrease if it takes a long time to detect, or increase if causes false positives.
+    32: 'matrix kick %player% FastUse Hacks' # Decrease if it takes a long time to detect, or increase if causes false positives.
 
 ## FastBow
 # Check prevents player from shooting a bow too quickly.

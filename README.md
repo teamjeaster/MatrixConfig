@@ -25,7 +25,7 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 
 4. `inventory.cancel_vl: 8` -> `inventory.cancel_vl: (number from 8 to 14)` (increase if the check causes false positives)
 
-5. `fastuse.commands.64: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
+5. `fastuse.commands.32: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
 
 ### Contact
 There are a lot of ways to contact me, but here are the main ones:
