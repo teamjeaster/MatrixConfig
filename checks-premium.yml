@@ -9,10 +9,8 @@
 # servers. Tweak the config for your own server!
 #
 # WARNING: If you are trying to use this on the
-# free version of Matrix, then stop. The new
-# features added to this config won't work for
-# you. The checks file for free Matrix will
-# still get improved.
+# free version of Matrix, it won't work, and
+# most likely will crash the plugin.
 #
 # ------------------------------------------------------
 #                       Issues?
