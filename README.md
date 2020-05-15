@@ -33,3 +33,7 @@ There are a lot of ways to contact me, but here are the main ones:
 1. [Matrix's official discord](https://discord.gg/Vq93vdj) - recommended
 
 2. [The config's official discord](https://discord.gg/2ReynYN) - for update notifications or larger debates (lol).
+
+### FAQ
+1. Why is the anti-killaura NPC spawned in the HitBox check?
+This check also checks if the player isn't using Angle cheats, and the NPC checks if the player can hit people behind the player. To prevent lag and false positives from happening with this, the NPC will be spawned only if the player's ping is lower than 185ms. If I'm right, this should make the killaura detection more strict.
