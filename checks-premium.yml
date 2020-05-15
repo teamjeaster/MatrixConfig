@@ -201,11 +201,9 @@ killaura:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    8: 
-      -'matrix npc %player% 125'
-      - 'matrix notify An anti-killaura NPC has been spawned behind %player% &8| &7KillAura &8| &a1/4'
-    20: 'matrix notify %player% might be using combat hacks &8| &7KillAura &8| &62/4'
-    35: 'matrix notify %player% might be using combat hacks &8| &7KillAura &8| &c3/4'
+    8: 'matrix npc %player% 125'
+    20: 'matrix notify %player% might be using combat hacks &8| &7KillAura &8| &61/3'
+    35: 'matrix notify %player% might be using combat hacks &8| &7KillAura &8| &c2/3'
     42: 'matrix kick %player% KillAura'
 
 ## HitBox
@@ -259,7 +257,7 @@ hitbox:
   # number_of_violations: '<command>'
   commands:
     10: 'matrix notify %player% tried to reach entity outside max reach distance &8| &7HitBox &8| &a1/3'
-    13: 'coc %player% if -ping-<185 do matrix npc %player% 125' # Spawns an anti-killaura NPC if the ping doesn't exceed 185ms.
+    13: 'coc %player% if -tps->18.5&-ping-<185 do matrix npc %player% 125' # Spawns an anti-killaura NPC if the ping doesn't exceed 185ms and the server isn't lagging.
     15: 'matrix notify %player% tried to reach entity outside max reach distance &8| &7HitBox &8| &c2/3'
     22: 'matrix kick %player% Reach/HitBox Hacks'
 
@@ -436,7 +434,7 @@ fastheal:
   # number_of_violations: '<command>'
   commands:
     10: 'matrix notify %player% tried to regain health too quickly &8| &7FastHeal &8| &a1/2'
-    56: 'matrix kick %player% FastHeal Hacks'
+    48: 'matrix kick %player% FastHeal Hacks'
 
 ## Block
 # Check prevents the player from breaking, placing block quickly
