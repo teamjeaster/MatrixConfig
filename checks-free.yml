@@ -257,6 +257,7 @@ hitbox:
   # number_of_violations: '<command>'
   commands:
     10: 'matrix notify %player% tried to reach entity outside max reach distance &8| &7HitBox &8| &a1/3'
+    13: 'coc %player% if -ping-<185 do matrix npc %player% 125' # Spawns an anti-killaura NPC if the ping doesn't exceed 185ms.
     15: 'matrix notify %player% tried to reach entity outside max reach distance &8| &7HitBox &8| &c2/3'
     22: 'matrix kick %player% Reach/HitBox Hacks'
 
