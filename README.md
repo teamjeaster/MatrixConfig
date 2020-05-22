@@ -2,7 +2,7 @@
 
 > The optimized config for [Matrix Anticheat](https://matrix.rip/).
 
-![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.8.0/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.8.2/green) ![open issues](https://img.shields.io/github/issues/PhoenixDiscord/MatrixConfig.svg) ![last commit](https://img.shields.io/github/last-commit/PhoenixDiscord/MatrixConfig.svg)
+![Built with oxygen](https://badgen.net/badge/built%20with/oxygen/green) ![for matrix free](https://badgen.net/badge/for%20free%20matrix/4.8.3/green) ![and premium](https://badgen.net/badge/and%20premium%20matrix/4.8.3/green) ![open issues](https://img.shields.io/github/issues/PhoenixDiscord/MatrixConfig.svg) ![last commit](https://img.shields.io/github/last-commit/PhoenixDiscord/MatrixConfig.svg)
 
 **Warning: You should use `checks-free.yml` if you use the free version. Also, using the premium config won't get you premium features and will most likely crash Matrix.** If you have premium, see `checks-premium.yml`.
 
