@@ -6,6 +6,8 @@
 
 **Warning: You should use `checks-free.yml` if you use the free version. Also, using the premium config won't get you premium features and will most likely crash Matrix.** If you have premium, see `checks-premium.yml`.
 
+Please see the Matrix discord server for updates; this repo will not be updated for a few days.
+
 ### Terms
 You can use this for anything, and modify it if you want to, but just please don't say that it's entirely yours and no one else contributed to it.
 
