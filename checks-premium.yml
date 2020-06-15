@@ -1,5 +1,5 @@
-# LCD's optimized checks file - v1.4.4
-# For Matrix Premium 4.8.6
+# LCD's optimized checks file
+# For Matrix 4.8.8
 #
 # This project aims to keep a balance between
 # preventing false positives and having a
@@ -7,10 +7,6 @@
 #
 # Tested and meant for survival and minigame
 # servers. Tweak the config for your own server!
-#
-# WARNING: If you are trying to use this on the
-# free version of Matrix, it won't work, and
-# most likely will crash the plugin.
 #
 # ------------------------------------------------------
 #                       Issues?
@@ -457,7 +453,7 @@ block:
     fastplace:
       enable: true
       vl_weight: 1
-      max_place_per_second: 9
+      max_place_per_second: 16 # Some players can place 18 blocks per second; feel free to decrease or increase that.
     # It can detect player placing block without swing hand
     noswing:
       enable: true
@@ -665,6 +661,9 @@ phase:
 
   # Violations needed to cancel illegal movements
   cancel_vl: 5
+
+  # Should Matrix prevent players from using Ender Pearl for close range teleportation?
+  prevent_close_range_enderpearl: true
 
   # Violation Thresholds
   # number_of_violations: '<command>'
