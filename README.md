@@ -29,6 +29,8 @@ I can't make your anticheat kick people seconds after they turn on their hacks w
 
 5. `fastuse.commands.32: ...` -> `fastuse.commands.(number): ...` (decrease if it takes a long time to kick the player, or increase if causes false positives)
 
+6. `block.fastplace.max_place_per_second: 16` -> `block.fastplace.max_place_per_second: (number from 9 to 19)` (decrease if you think there are bypasses, increase if the check still causes false positives.)
+
 ### Contact
 There are a lot of ways to contact me, but here are the main ones:
 
