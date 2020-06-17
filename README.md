@@ -1,4 +1,7 @@
-# MatrixConfig
+# This project is moving from GitHub to [Disroot Git (click here)](https://git.disroot.org/lampenit/MatrixConfig)
+
+
+## MatrixConfig
 
 > The optimized config for [Matrix Anticheat](https://matrix.rip/).
 
